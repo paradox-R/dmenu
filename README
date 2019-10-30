@@ -1,0 +1,23 @@
+     _                            
+  __| |_ __ ___   ___ _ __  _   _ 
+ / _` | '_ ` _ \ / _ \ '_ \| | | |
+| (_| | | | | | |  __/ | | | |_| |
+ \__,_|_| |_| |_|\___|_| |_|\__,_|
+                                  
+===================================
+dmenu is an efficient dynamic menu for X.
+
+Patches
+=======
+border,
+numbers.
+
+Installation
+------------
+Edit config.mk to match your local setup (dmenu is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install dmenu
+(if necessary as root):
+
+    make clean install
