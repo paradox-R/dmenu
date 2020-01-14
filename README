@@ -10,6 +10,7 @@ dmenu is an efficient dynamic menu for X.
 Patches
 =======
 border,
+center,
 numbers.
 
 Installation
