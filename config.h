@@ -5,11 +5,11 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int centered = 1;                    /* -c option; centers dmenu on screen */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Cascadia Code:pixelsize=13:antialias=true:autohint=true"
+	"FiraCode Nerd Font:style=Retina,Regular:pixelsize=13:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
+	//     fg         bg       
 	[SchemeNorm] = { "#FEFEFE", "#181617" },
 	[SchemeSel] = { "#181617", "#E4312C" },
 	[SchemeOut] = { "#FEFEFE", "#181617" },
@@ -24,4 +24,4 @@ static unsigned int lines      = 0;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 2;
+static const unsigned int border_width = 0;
